@@ -12,7 +12,6 @@ import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {MenuItem} from 'primeng/api';  //api
-import { AlertModule } from 'ngx-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,8 +28,7 @@ import { AlertModule } from 'ngx-bootstrap';
     HttpModule,
     CalendarModule,
     BrowserAnimationsModule,
-    AccordionModule,
-    AlertModule
+    AccordionModule
                      //    RouterModule.forRoot(routes, {enableTracing: true})
 ],
   providers: [],

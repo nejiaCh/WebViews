@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('test-calender App', () => {
+describe('web-views App', () => {
   let page: AppPage;
 
   beforeEach(() => {
